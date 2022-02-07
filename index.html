@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato em JS</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      
+        <div class="form-container">
+        
+        
+        <form name="fform" id="form-box" onsubmit="sendEmail(); reset(); return false">
+          <h1 class="titulo">ENTRE EM CONTATO</h1>
+          
+          <input type="text" class="form-input" name="fname" placeholder="Nome" required="required">          
+          <input type="email" class="form-input" name="fmail" placeholder="E-mail" id="mail" required="required">          
+          <input type="tel" class="form-input" name="fphone" placeholder="Telefone" required="required">
+          <textarea form="fform" id="textarea" placeholder="mensagem" name="msg" required="required"></textarea>
+          <button class="submit">Enviar</button>
+          
+              
+          
+
+
+
+    
+
+
+        </form>
+        
+      
+        </div>
+        <img class="flag" src="brasil.png" alt="Bandeira do Brasil">
+    
+    </div>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
